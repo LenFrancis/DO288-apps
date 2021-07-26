@@ -7,5 +7,5 @@
 #	https://github.com/openshift/source-to-image/blob/master/docs/builder_image.md
 #
 
-# Run the app
-exec /opt/app-root/app
+echo "Starting app with lang option 'es'..."
+exec /opt/app-root/app --lang es
